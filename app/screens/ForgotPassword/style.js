@@ -1,0 +1,125 @@
+import { BaseColors, FontFamily } from '@config/theme';
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingHorizontal: 20,
+    backgroundColor: BaseColors.white,
+  },
+  container1: {
+    marginTop: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  signintext: {
+    color: BaseColors.secondary,
+    fontSize: 27,
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontFamily: FontFamily.bold,
+  },
+  subtitleintext: {
+    fontSize: 15,
+    marginTop: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    color: BaseColors.black70,
+    textAlign: 'center',
+    fontFamily: FontFamily.semiBold,
+  },
+  profileimage: {
+    marginTop: 10,
+    width: 140,
+    height: 140,
+    resizeMode: 'contain',
+  },
+  signinbutton: {
+    marginTop: 30,
+    height: 50,
+  },
+  signupbuttontext: {
+    fontSize: 17,
+    alignItems: 'center',
+    textAlign: 'center',
+    color: 'white',
+    fontWeight: '600',
+    fontFamily: 'Montserrat',
+  },
+  inputmain: { flex: 1, marginTop: 20 },
+  passwordFlex: { flex: 1, marginTop: 20, justifyContent: 'space-between' },
+  forgotpassword: {
+    color: BaseColors.primary,
+    fontSize: 13,
+    marginTop: 10,
+  },
+  input1: {
+    borderColor: 'grey',
+    height: 50,
+    width: '80%',
+    marginTop: 10,
+    padding: 10,
+    borderRadius: 15,
+    borderWidth: 1,
+    marginHorizontal: 10,
+  },
+  passbutton: {
+    marginTop: 10,
+    height: 50,
+  },
+  container9: {
+    marginHorizontal: 10,
+    marginTop: 10,
+    fontSize: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'left',
+    color: BaseColors.primary,
+    fontFamily: 'Montserrat',
+  },
+  signuptext: {
+    fontSize: 14,
+    marginTop: 20,
+    color: BaseColors.primary,
+    fontFamily: FontFamily.medium,
+  },
+  logintext1: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    fontFamily: 'Montserrat',
+  },
+  signup: {
+    marginBottom: 20,
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    justifyContent: 'center',
+  },
+  donthaveaccount: {
+    color: BaseColors.secondary,
+    fontSize: 14,
+    marginTop: 20,
+    fontFamily: FontFamily.medium,
+  },
+  circle: {
+    height: 120,
+    borderRadius: 60,
+    width: 120,
+    alignSelf: 'center',
+  },
+  textforemail: {
+    color: BaseColors.secondary,
+    fontSize: 27,
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    marginTop: 20,
+    fontFamily: FontFamily.semiBold,
+  },
+  avatarSty: {
+    width: 150,
+    height: 150,
+    borderRadius: 10,
+    resizeMode: 'cover',
+  },
+});

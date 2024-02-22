@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "360148299149",
+    "project_id": "dottie-9aacb",
+    "storage_bucket": "dottie-9aacb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360148299149:android:b90f99eeb4fefaab9561c4",
+        "android_client_info": {
+          "package_name": "com.dottie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360148299149-609hnhgn49fj9do9tli2vcs9q8cj9ltt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbaU6G2Dw7Jl_PNx8nb1lRozWi8C9AqW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360148299149-609hnhgn49fj9do9tli2vcs9q8cj9ltt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
